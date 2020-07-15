@@ -1,0 +1,131 @@
+---
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+class: inverse, animated slideInRight fadeOutLeft, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#142a5e",
+  secondary_color = "#142a5e",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{r , message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+library(emo)
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo("logo-r-en-el-nea.png")
+```
+
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_css()
+```
+
+# Creando `r emo::ji("world_map")` con `r fa("r-project", fill = 'steelblue')`
+
+### R-en-el-NEA
+
+### Disertante: "Yeyo" Mourglia
+
+
+---
+class: center, animated slideInRight fadeOutLeft
+
+# Bienvenidxs a `r fa("r-project", fill = 'steelblue')` en el NEA  
+
+```{r echo=FALSE, out.width = '70%'}
+knitr::include_graphics("mapas-con-R.png")
+```
+
+
+---
+class: animated slideInRight fadeOutLeft
+
+
+# Misión
+
+* Este grupo surge con la misión de **conectar a les usuarios de R** independientemente de su grado de conocimiento sobre el software y el ámbito de aplicación del mismo. 
+* Pretendemos **promover el uso del lenguaje de programación R**, apoyar el desarrollo de esta comunidad de usuaries para compartir experiencias, promover el aprendizaje continuo y favorecer la creación de proyectos interdisciplinarios. 
+    
+
+---
+
+class: animated slideInRight fadeOutLeft
+
+# Código de conducta
+
+**Esperamos que R-en-el-NEA sea un grupo libre de acoso para todes.**
+
+Acoso incluye: daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.
+
+Quienes violen estas reglas podrán recibir sanciones o expulsiones, y se espera que a quienes se les pida detengan cualquier comportamiento de acoso, con cumplimiento inmediato.
+
+
+---
+
+class: animated slideInRight fadeOutLeft
+
+
+# Nuestras redes
+
+###`r fa("twitter", fill = 'steelblue')` https://bit.ly/r-en-el-NEA
+
+### `r fa("github", fill = 'black')` https://github.com/RenelNEA 
+
+### `r fa("meetup", fill = 'red')` https://www.meetup.com/R-en-el-NEA/
+
+#### Sitio web: https://renelnea.github.io/web/ 
+
+
+---
+class: animated slideInRight fadeOutLeft
+
+# Material de este Tutorial
+
+## Repositorio `r fa("github", fill = 'black')`
+
+### https://bit.ly/mapas-R-NEA
+
+## Canal Youtube `r fa("youtube", fill = 'red')`
+
+### https://bit.ly/R-nea-youtube 
+
+  
+
+---
+
+# ¿Preguntas?
+
+Archivo google doc compartido para escribir tus preguntas
+
+## https://bit.ly/mapas-R-preguntas
+---
+
+class: animated slideInRight fadeOutLeft
+
+# Equipo
+
+```{r echo=FALSE, out.width = '100%'}
+knitr::include_graphics("r-en-el-nea-equipo.png")
+```
+
+        
+---
+
