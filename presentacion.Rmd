@@ -85,7 +85,9 @@ class: animated slideInRight fadeOutLeft
 
 #### `r emo::ji("earth_americas")` https://renelnea.github.io/web/ 
 
-
+```{r echo=FALSE, out.width = '40%', fig.align='right'}
+knitr::include_graphics("map7.jpg")
+```
 ---
 class: animated slideInRight fadeOutLeft
 
@@ -95,7 +97,10 @@ class: animated slideInRight fadeOutLeft
 <br>
 ### `r fa("youtube", fill = 'red')` https://bit.ly/R-nea-youtube 
 
-  
+
+```{r echo=FALSE, out.width = '30%', fig.align='right'}
+knitr::include_graphics("map6.jpg")
+```
 
 ---
 class: animated slideInRight fadeOutLeft
@@ -105,6 +110,11 @@ class: animated slideInRight fadeOutLeft
 Google doc compartido para escribir tus preguntas 
 
 ## https://bit.ly/mapas-R-preguntas
+
+```{r echo=FALSE, out.width = '60%', fig.align='right'}
+knitr::include_graphics("map5.jpg")
+```
+
 ---
 
 class: animated slideInRight fadeOutLeft
@@ -130,6 +140,10 @@ Soy José "Yeyo" MOURGLIA
 - Especializado en SIG/GIS
 - Miembro de Grupo R-en-el-NEA
 
+```{r echo=FALSE, out.width = '30%', fig.align='right'}
+knitr::include_graphics("map3.jpg")
+```
+
 
 ---
 
@@ -142,7 +156,9 @@ class: animated slideInRight fadeOutLeft
 - Profesor de Estadistica en Instituto Superior Llano
 - Presentaciones en la FOSS4G (Argentina) , SOTM LATAM
 
-
+```{r echo=FALSE, out.width = '50%', fig.align='right'}
+knitr::include_graphics("map4.jpg")
+```
 ---
 
 class: animated slideInRight fadeOutLeft
@@ -154,10 +170,14 @@ class: animated slideInRight fadeOutLeft
   con ejemplos de uso.
 
 
-```{r echo=FALSE, out.width = '50%', fig.align='center'}
-knitr::include_graphics("map2.jpg")
+```{r echo=FALSE, out.width = '60%', fig.align='right'}
+knitr::include_graphics("map8.jpg")
 ```
 
   
 ---
 
+```{r } 
+sessionInfo() 
+```
+---
