@@ -90,14 +90,10 @@ class: animated slideInRight fadeOutLeft
 class: animated slideInRight fadeOutLeft
 
 # Material de este Tutorial
-
-## Repositorio `r fa("github", fill = 'black')`
-
-### https://bit.ly/mapas-R-NEA
-
-## Canal Youtube `r fa("youtube", fill = 'red')`
-
-### https://bit.ly/R-nea-youtube 
+<br>
+### `r fa("github", fill = 'black')` https://bit.ly/mapas-R-NEA
+<br>
+### `r fa("youtube", fill = 'red')` https://bit.ly/R-nea-youtube 
 
   
 
@@ -164,3 +160,4 @@ knitr::include_graphics("map2.jpg")
 
   
 ---
+
