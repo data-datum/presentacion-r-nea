@@ -175,9 +175,3 @@ knitr::include_graphics("map8.jpg")
 ```
 
   
----
-
-```{r } 
-sessionInfo() 
-```
----
