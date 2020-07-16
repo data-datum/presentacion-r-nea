@@ -92,7 +92,7 @@ class: animated slideInRight fadeOutLeft
 
 ### `r fa("meetup", fill = 'red')` https://www.meetup.com/R-en-el-NEA/
 
-#### Sitio web: https://renelnea.github.io/web/ 
+#### `r emo::ji("earth_americas")` https://renelnea.github.io/web/ 
 
 
 ---
@@ -133,9 +133,9 @@ knitr::include_graphics("r-en-el-nea-equipo.png")
 
 class: animated slideInRight fadeOutLeft
 
-#Quien soy
+#Quien soy`r emo::ji("man_technologist")`
 
-Soy José "yeyo" MOURGLIA
+Soy José "Yeyo" MOURGLIA
 
 - Informático y Estadístico recibido en la UNNE 
 - Miembro de la Comunidad OpenStreetMap ARG
@@ -148,7 +148,7 @@ Soy José "yeyo" MOURGLIA
 
 class: animated slideInRight fadeOutLeft
 
-# Mis Trabajos
+# Mis Trabajos `r emo::ji("desktop_computer")`
 
 - Desarrolle el IDE Corrientes <https://ide.corrientes.gob.ar>
 - Profesor de la UNNE-FACENA
@@ -160,8 +160,8 @@ class: animated slideInRight fadeOutLeft
 
 class: animated slideInRight fadeOutLeft
 
-## Que aprenderemos?
-
+# ¿Qué aprenderemos? `r emo::ji("world_map")`
+ 
 - Haremos unos ejemplos de los paquetes 
 - `sp`, `ggplot2`, `mapview`, `tmap`
 - presentaremos con mas detalles el paquete `leaflet`
