@@ -104,7 +104,7 @@ class: animated slideInRight fadeOutLeft
 ---
 class: animated slideInRight fadeOutLeft
 
-# ¿Preguntas?
+# ¿Preguntas? `r emo::ji("writing_hand")`
 
 Google doc compartido para escribir tus preguntas 
 
