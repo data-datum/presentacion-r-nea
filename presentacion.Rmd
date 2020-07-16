@@ -45,6 +45,7 @@ xaringanExtra::use_animate_css()
 ### Disertante: "Yeyo" Mourglia
 
 
+
 ---
 class: center, animated slideInRight fadeOutLeft
 
@@ -110,10 +111,11 @@ class: animated slideInRight fadeOutLeft
   
 
 ---
+class: animated slideInRight fadeOutLeft
 
 # ¿Preguntas?
 
-Archivo google doc compartido para escribir tus preguntas
+Google doc compartido para escribir tus preguntas 
 
 ## https://bit.ly/mapas-R-preguntas
 ---
@@ -129,3 +131,40 @@ knitr::include_graphics("r-en-el-nea-equipo.png")
         
 ---
 
+class: animated slideInRight fadeOutLeft
+
+#Quien soy
+
+Soy José "yeyo" MOURGLIA
+
+- Informático y Estadístico recibido en la UNNE 
+- Miembro de la Comunidad OpenStreetMap ARG
+- Miembro de la Comunidad RSpatial_es
+- Especializado en SIG/GIS
+- Miembro de Grupo R-en-el-NEA
+
+
+---
+
+class: animated slideInRight fadeOutLeft
+
+# Mis Trabajos
+
+- Desarrolle el IDE Corrientes <https://ide.corrientes.gob.ar>
+- Profesor de la UNNE-FACENA
+- Profesor de Estadistica en Instituto Superior Llano
+- Presentaciones en la FOSS4G (Argentina) , SOTM LATAM
+
+
+---
+
+class: animated slideInRight fadeOutLeft
+
+## Que aprenderemos?
+
+- Haremos unos ejemplos de los paquetes 
+- `sp`, `ggplot2`, `mapview`, `tmap`
+- presentaremos con mas detalles el paquete `leaflet`
+  con ejemplos de uso.
+  
+---
