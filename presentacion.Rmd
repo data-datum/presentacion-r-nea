@@ -9,7 +9,8 @@ output:
       countIncrementalSlides: false
 
 ---
-
+background-image: url(map.jpg)
+background-size: cover
 class: inverse, animated slideInRight fadeOutLeft, middle
 
 ```{r setup, include=FALSE}
@@ -41,7 +42,6 @@ xaringanExtra::use_animate_css()
 # Creando `r emo::ji("world_map")` con `r fa("r-project", fill = 'steelblue')`
 
 ### R-en-el-NEA
-
 ### Disertante: "Yeyo" Mourglia
 
 
@@ -57,26 +57,17 @@ knitr::include_graphics("mapas-con-R.png")
 
 
 ---
-class: animated slideInRight fadeOutLeft
-
 
 # Misión
 
 * Este grupo surge con la misión de **conectar a les usuarios de R** independientemente de su grado de conocimiento sobre el software y el ámbito de aplicación del mismo. 
 * Pretendemos **promover el uso del lenguaje de programación R**, apoyar el desarrollo de esta comunidad de usuaries para compartir experiencias, promover el aprendizaje continuo y favorecer la creación de proyectos interdisciplinarios. 
-    
 
----
-
-class: animated slideInRight fadeOutLeft
+--
 
 # Código de conducta
 
 **Esperamos que R-en-el-NEA sea un grupo libre de acoso para todes.**
-
-Acoso incluye: daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.
-
-Quienes violen estas reglas podrán recibir sanciones o expulsiones, y se espera que a quienes se les pida detengan cualquier comportamiento de acoso, con cumplimiento inmediato.
 
 
 ---
@@ -122,7 +113,7 @@ Google doc compartido para escribir tus preguntas
 
 class: animated slideInRight fadeOutLeft
 
-# Equipo
+# Equipo `r emo::ji("muscle")`
 
 ```{r echo=FALSE, out.width = '100%'}
 knitr::include_graphics("r-en-el-nea-equipo.png")
@@ -162,9 +153,14 @@ class: animated slideInRight fadeOutLeft
 
 # ¿Qué aprenderemos? `r emo::ji("world_map")`
  
-- Haremos unos ejemplos de los paquetes 
-- `sp`, `ggplot2`, `mapview`, `tmap`
-- presentaremos con mas detalles el paquete `leaflet`
+- Haremos unos ejemplos de los paquetes `sp`, `ggplot2`, `mapview`, `tmap`
+- Presentaremos con mas detalles el paquete `leaflet`
   con ejemplos de uso.
+
+
+```{r echo=FALSE, out.width = '50%', fig.align='center'}
+knitr::include_graphics("map2.jpg")
+```
+
   
 ---
